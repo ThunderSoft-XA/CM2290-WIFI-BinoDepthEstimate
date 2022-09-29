@@ -1,0 +1,32 @@
+{
+    "gstreamer": {
+        "cameras": [
+            {
+                "pipe_name": "camera-pipe",
+                "camera_id": 0,
+                "display": false
+            }
+        ],
+        "streams": [
+            {
+                "pipe_name": "push-pipe",
+                "width": 320,
+                "hitht": 240,
+                "host": "127.0.0.1",
+                "port": 5050
+            }
+        ]
+    },
+    "estimation": {
+        "algorithm": "sgbm3way",
+        "blocksize": 7,
+        "max_disparity": 32,
+        "no_display": false,
+        "scale" : 1.0,
+        "color": true,
+        "intrinsic_filename" : "",
+        "extrinsic_filename": "",
+        "disparity_filename": "",
+        "point_cloud_filename": ""
+    }
+}
