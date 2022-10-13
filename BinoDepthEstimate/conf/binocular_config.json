@@ -5,6 +5,11 @@
                 "pipe_name": "camera-pipe",
                 "camera_id": 0,
                 "display": false
+            },
+            {
+                "pipe_name": "camera-pipe1",
+                "camera_id": 1,
+                "display": false
             }
         ],
         "streams": [
